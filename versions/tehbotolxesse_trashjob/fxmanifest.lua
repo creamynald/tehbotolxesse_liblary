@@ -3,7 +3,7 @@ game 'gta5'
 
 author      'TehBotolxESSE'
 description 'Trash Collector Job v2'
-version     '2.1.0'
+version     '2.1.1'
 
 shared_scripts {
     '@ox_lib/init.lua',
