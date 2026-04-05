@@ -1,6 +1,6 @@
 # 📦 TehBotolxESSE Version Checker
 
-Library sederhana untuk mengecek versi script FiveM agar selalu up-to-date.
+yaelah bg, serius amat jadi orang.
 
 ---
 
