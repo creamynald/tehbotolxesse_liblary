@@ -5,7 +5,12 @@ lua54 'yes'
 
 author      'TehBotolxESSE'
 description 'Kepo bangett bwangg, script barham doang ini'
-version     '1.2.0'
+version     '1.2.1'
+
+escrow_ignore {
+    'shared/config_barham.lua',
+    'shared/locale.lua',
+}
 
 shared_scripts {
     '@ox_lib/init.lua',
