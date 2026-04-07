@@ -3,14 +3,14 @@ game 'gta5'
 
 lua54 'yes'
 
-author 'TehBotolxESSE'
-description 'kepo bangett bwanggg'
-version '1.2.0'
+author      'TehBotolxESSE'
+description 'Kepo bangett bwangg, script barham doang ini'
+version     '1.2.0'
 
 shared_scripts {
     '@ox_lib/init.lua',
     'shared/config_barham.lua',
-    'shared/locale.lua',   
+    'shared/locale.lua',
 }
 
 client_scripts {
@@ -23,6 +23,7 @@ server_scripts {
     'server/sv_command.lua',
 }
 
+
 files {
     'locales/*.json',
     'stream/**/*.ytyp',
@@ -30,11 +31,12 @@ files {
 
 data_file 'DLC_ITYP_REQUEST' 'stream/**/*.ytyp'
 
+
 dependencies {
+    '/server:7290',
     'qbx_core',
     'ox_lib',
     'ox_inventory',
     'ox_target',
-    -- kalo pake 'tk_dispatch' ini dinyalain ya bwannggg
     -- 'tk_dispatch',
 }
