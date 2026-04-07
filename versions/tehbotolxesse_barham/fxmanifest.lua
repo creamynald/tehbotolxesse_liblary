@@ -10,7 +10,7 @@ version '1.2.0'
 shared_scripts {
     '@ox_lib/init.lua',
     'shared/config_barham.lua',
-    'shared/locale.lua',   -- safe locale fallback (runs after config so Config.Locale is set)
+    'shared/locale.lua',   
 }
 
 client_scripts {
@@ -35,5 +35,6 @@ dependencies {
     'ox_lib',
     'ox_inventory',
     'ox_target',
+    -- kalo pake 'tk_dispatch' ini dinyalain ya bwannggg
     -- 'tk_dispatch',
 }
